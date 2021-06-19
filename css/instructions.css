@@ -28,15 +28,18 @@
     margin: 0;
     background-image: linear-gradient(rgb(3, 194, 204), rgb(0, 131, 163));
     height: 100%;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
 }
 
 #stepsBody{
     margin-left: 10%;
     margin-right: 10%;
-
+    font-family: Monaco, monospace;
 }
 
+#stepsBody h2 {
+    color: rgb(226, 231, 222);
+}
 #stepsBody p {
     padding: 0;
     margin: 0;
@@ -44,16 +47,42 @@
 }
 
 #stepsBody ol {
-    padding: 0;
+    padding: 0 1.5em;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    color: rgb(1, 63, 66);
+}
+
+#stepsBody li {
+    padding: 1em;
+}
+
+#stepsBody ul li {
+    padding: 0em;
+}
+
+#stepsBody pre {
+    display: inline-block;
+    background-color: tan;
+    color: darkblue;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 1em 1.5em;
+}
+
+.stepImage {
+    float: left;
+    width: 5em;
+   margin-right: 5.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #recipeImage {
     float:right;
-    width: 150px;
-    background: red;
+    width: 10em;
     margin: 1em;
+    margin-right: 10%;
 }
 
 #footer{
@@ -73,7 +102,7 @@
 #footerCoral{
     height: 6em;
     float:right;
-    padding-bottom: .5em;
+    padding-top: .75em;
 }
 
 #footerFish1{
