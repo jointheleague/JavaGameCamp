@@ -61,6 +61,11 @@
     padding: 0em;
 }
 
+#stepsBody ul ol li {
+    margin: .25em;
+    font-size: .75em;
+}
+
 #stepsBody pre {
     display: inline-block;
     background-color: tan;
