@@ -1,50 +1,59 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Level 0 - Intro to Random</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://league-central.github.io/curriculum/style/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="icon" type="image/png" href="https://league-central.github.io/curriculum/img/favicon.png">
-    <script src="https://league-central.github.io/curriculum/script/headerAndFooter.js"></script>
+    <link rel="stylesheet" href="../../css/instructions.css">
+    <title>Shapes and Colors</title>
 </head>
-<body>
-<div id ="wrap">
-    <div id ="main">
-
-        <div id="recipeLeftColumn">
-
-            <h1>Intro to Random</h1>
-            <hr>
-            <img src="img/random.jpeg"><br>
-            <div id="recipeGoal">
-                <h2>Goal:</h2>
-                <p id="goal">
-                    Learn how to use a Random object to generate random integers within specified number ranges.
-                </p>
-            </div>
-        </div>
-        <div id ="recipeRightColumn">
-
-
-            <div id="recipeSteps">
-                <h2>Steps:</h2>
-                <ol id="stepList">
-                    <li>Generate a random integer without limits.</li>
-                    <li>Generate a random positive integer with an upper limit.</li>
-                    <li>Generate a random integer with an upper and lower (positive) limit.</li>
-                    <li>Generate a random integer with an upper and lower (negative) limit</li>
-
-                </ol>
-                <div style="clear:both;"></div>
-            </div>
+<body id="body">
+<div id="bodyBackgroundColor">
+    <div id="header">
+        <p>Random Numbers</p>
+    </div>
+    <img src="../../img/instructionsImage.png" alt="beach pixel art" id="instructionsImage">
+    <div id="gradientBody">
+        <div id="stepsBody">
+            <img src="./img/random.jpeg" alt="random image" id="recipeImage">
+            <h2>Steps:</h2>
+            <ol>
+                <li>Inside the main method, create a Random, similar to how you would create a Robot.
+                    <div style="width:100%">
+                        <pre>Random randy = new Random();</pre>
+                    </div>
+                </li>
+                <li>Use this Random to create a random number.
+                    <div style="width:100%">
+                        <pre>int number = randy.nextInt();</pre>
+                    </div>
+                </li>
+                <li>Print out the random number.
+                    <div style="width:100%">
+                        <pre>System.out.println("Random number is " + number);</pre>
+                    </div>
+                </li>
+                <li>Get another number from 0 to 100, and print it out.
+                    <div style="width:100%">
+                        <pre>int numberLessThan100 = randy.nextInt(101);
+System.out.println("Random number from 0 to 100 is " + numberLessThan100);</pre>
+                    </div>
+                </li>
+                <li>Get a third number between 100 and 110, and print it out.
+                    <div style="width:100%">
+                        <pre>int low = 100;
+int high = 110;
+int randomBetweenLowAndHigh = randy.nextInt((high-low)+1)+low;
+System.out.println("Random number from 100 to 110 is " + randomBetweenLowAndHigh);</pre>
+                    </div>
+                </li>
+            </ol>
         </div>
     </div>
 </div>
-
 <div id="footer">
-    <script>addRecipeFooter();</script>
+    <img src="../../img/treasureChest.png" alt="beach pixel art" id="footerTreasureChest">
+    <img src="../../img/fish2.png" alt="beach pixel art" id="footerFish1">
+    <img src="../../img/fish1.png" alt="beach pixel art" id="footerFish2">
+    <img src="../../img/fish3.png" alt="beach pixel art" id="footerFish3">
 </div>
-</body></html>
+</body>
+</html>
