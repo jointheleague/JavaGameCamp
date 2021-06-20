@@ -1,49 +1,43 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Level 0 - Rock Paper Scissors</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://league-central.github.io/curriculum/style/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="icon" type="image/png" href="https://league-central.github.io/curriculum/img/favicon.png">
-    <script src="https://league-central.github.io/curriculum/script/headerAndFooter.js"></script>
+    <link rel="stylesheet" href="../../css/instructions.css">
+    <title>Shapes and Colors</title>
 </head>
-<body>
-<div id ="wrap">
-    <div id ="main">
-
-        <div id="recipeLeftColumn">
-
-            <h1>Rock Paper Scissors</h1>
-            <hr>
-            <img src="img/scissors.jpeg"><br>
-            <div id="recipeGoal">
-                <h2>Goal:</h2>
-                <p id="goal">
-                    Use a Random object to generate random integers so your code can play Rock Paper Scissors with you.
-                </p>
-            </div>
-        </div>
-        <div id ="recipeRightColumn">
-
-
-            <div id="recipeSteps">
-                <h2>Steps:</h2>
-                <ol id="stepList">
-                    <li>Create a Random object.</li>
-                    <li>Generate a random number to represent rock, paper, or scissors in a game.</li>
-                    <li>Play Rock Paper Scissors against the computer to test your code.</li>
-
-                </ol>
-                <div style="clear:both;"></div>
-            </div>
+<body id="body">
+<div id="bodyBackgroundColor">
+    <div id="header">
+        <p>Rock, Paper, Scissors</p>
+    </div>
+    <img src="../../img/instructionsImage.png" alt="beach pixel art" id="instructionsImage">
+    <div id="gradientBody">
+        <div id="stepsBody">
+            <img src="img/scissors2.png" alt="scissors image" id="recipeImage">
+            <h2>Steps:</h2>
+            <ol>
+                <li>Run the game, and play it to see that the computer always makes the same choice</li>
+                <li>For step 2, change the value of opponentSelection from "0", to a random number from 0 to 2
+                    <ul>
+                        <li>Create a Random before int opponentSelection is created.</li>
+                        <li>Using the code you previously wrote to generate a number from 0 to 100, set opponentSelection
+                            equal
+                            to a random number between 0 and 2.
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+                <li>Play Rock, Paper, Scissors against the computer and see if you can win.</li>
+                <li>EXTRA: You can change the images used for the game at the top of the program if you don't like the current ones.</li>
+            </ol>
         </div>
     </div>
 </div>
-
 <div id="footer">
-    <script>addRecipeFooter();</script>
+    <img src="../../img/treasureChest.png" alt="beach pixel art" id="footerTreasureChest">
+    <img src="../../img/fish2.png" alt="beach pixel art" id="footerFish1">
+    <img src="../../img/fish1.png" alt="beach pixel art" id="footerFish2">
+    <img src="../../img/fish3.png" alt="beach pixel art" id="footerFish3">
 </div>
-</body></html>
+</body>
+</html>
