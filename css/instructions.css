@@ -20,6 +20,7 @@
 #bodyBackgroundColor{
     background-color: rgb(3, 194, 204);
 }
+
 #instructionsImage{
     max-width: 100%;
 }
@@ -78,7 +79,7 @@
 .stepImage {
     float: left;
     width: 5em;
-   margin-right: 5.5em;
+    margin-right: 5.5em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -88,6 +89,8 @@
     width: 10em;
     margin: 1em;
     margin-right: 10%;
+    margin-top: 10%;
+    border: 5px solid rgb(87, 152, 194);
 }
 
 #footer{
