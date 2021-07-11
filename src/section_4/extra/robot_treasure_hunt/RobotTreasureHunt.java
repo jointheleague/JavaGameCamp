@@ -58,7 +58,7 @@ public class RobotTreasureHunt implements KeyEventDispatcher{
 
 	private void go() {
 		KeyboardFocusManager.getCurrentKeyboardFocusManager().addKeyEventDispatcher(this);
-		Robot.setWindowImage("img/treasure_hunt.jpg");
+		Robot.setWindowImage("section_4/extra/robot_treasure_hunt/img/treasure_hunt.jpg");
 
 		JOptionPane.showMessageDialog(null, "Ask the girl for help with your quest. Press the space bar to ask.");
 

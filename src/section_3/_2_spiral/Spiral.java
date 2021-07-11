@@ -1,4 +1,4 @@
-package section_3._2_robot_spiral;
+package section_3._2_spiral;
 
 public class Spiral {
 
